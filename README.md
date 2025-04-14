@@ -25,14 +25,14 @@ A .NET 8 Web API that manages customer registrations for pet insurance services.
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
-- [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
+- .NET 8 SDK
 - SQL Server or SQL Server Express
 - Visual Studio 2022+ or VS Code
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AnimalFriends.git
+git clone https://github.com/MakonMiahDev/AnimalFriendsAPI.git
 cd AnimalFriends/AnimalFriends
 ```
 
@@ -67,7 +67,7 @@ dotnet run --project AnimalFriendsAPI
 Visit Swagger UI at:
 
 ```
-https://localhost:5001/swagger
+http://localhost:5141/index.html
 ```
 
 ---
