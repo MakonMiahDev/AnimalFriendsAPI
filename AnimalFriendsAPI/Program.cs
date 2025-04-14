@@ -5,13 +5,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using AnimalFriends.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Register FluentValidation
 builder.Services.AddFluentValidationAutoValidation()
     .AddFluentValidationClientsideAdapters()
-    .AddValidatorsFromAssemblyContaining<CustomerRegistrationValidator>();
+    .AddValidatorsFromAssemblyContaining<RegistrationValidator>();
 
 // Register services for Swagger
 builder.Services.AddEndpointsApiExplorer();

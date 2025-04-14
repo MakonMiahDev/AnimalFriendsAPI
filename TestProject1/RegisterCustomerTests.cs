@@ -1,17 +1,18 @@
 ﻿using AnimalFriends.Models;
+using AnimalFriends.Registration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace AnimalFriends.Tests
 {
     [TestClass]
-    public class CustomerRegistrationValidatorTests
+    public class RegistrationValidatorTests
     {
-        private CustomerRegistrationValidator _validator = null!;
+        private RegistrationValidator _validator = null!;
 
         [TestInitialize]
         public void Setup()
         {
-            _validator = new CustomerRegistrationValidator();
+            _validator = new RegistrationValidator();
         }
 
         [TestMethod]

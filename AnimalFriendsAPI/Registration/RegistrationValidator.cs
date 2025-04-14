@@ -1,11 +1,11 @@
 ﻿using AnimalFriends.Models;
 using FluentValidation;
 
-namespace AnimalFriends
+namespace AnimalFriends.Registration
 {
-    public class CustomerRegistrationValidator : AbstractValidator<CustomerRegistration>
+    public class RegistrationValidator : AbstractValidator<CustomerRegistration>
     {
-        public CustomerRegistrationValidator()
+        public RegistrationValidator()
         {
             RuleFor(x => x.FirstName)
                 .NotEmpty().WithMessage("First name is required")

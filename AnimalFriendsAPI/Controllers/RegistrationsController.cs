@@ -1,4 +1,5 @@
 ﻿using AnimalFriends.Models;
+using AnimalFriends.Registration;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 

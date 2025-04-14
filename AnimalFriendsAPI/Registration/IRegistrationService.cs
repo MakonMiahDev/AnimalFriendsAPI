@@ -1,6 +1,6 @@
 ﻿using AnimalFriends.Models;
 
-namespace AnimalFriends
+namespace AnimalFriends.Registration
 {
     public interface IRegistrationService
     {

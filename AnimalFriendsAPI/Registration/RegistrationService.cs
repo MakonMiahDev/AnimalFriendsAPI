@@ -2,7 +2,7 @@
 using AnimalFriends.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AnimalFriends
+namespace AnimalFriends.Registration
 {
     public class RegistrationService : IRegistrationService
     {
