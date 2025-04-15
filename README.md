@@ -27,7 +27,7 @@ A .NET 8 Web API that manages customer registrations for pet insurance services.
 ### Prerequisites
 - .NET 8 SDK
 - SQL Server or SQL Server Express
-- Visual Studio 2022+ or VS Code
+- Visual Studio 2022+
 
 ### 1. Clone the Repository
 
