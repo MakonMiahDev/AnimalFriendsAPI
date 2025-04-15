@@ -9,12 +9,10 @@ using AnimalFriends.Registration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Register FluentValidation
 builder.Services.AddFluentValidationAutoValidation()
     .AddFluentValidationClientsideAdapters()
     .AddValidatorsFromAssemblyContaining<RegistrationValidator>();
 
-// Register services for Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
